@@ -1,0 +1,19 @@
+flash-opacity: 0.8
+default-opacity: 1
+
+time: 500
+ntimepoints: 10
+
+simple: false  # Fade out flashes
+flash-on-focus: true
+flash-fullscreen: true
+flash-lone-windows: 'always'
+
+# Windows that should remain these remain semi-transparent after flash
+rules:
+  - app-id: kitty
+    flash-opacity: 0.85
+    default-opacity: 0.94
+  - app-id: org.pwmt.zathura
+    flash-opacity: 0.85
+    default-opacity: 0.94

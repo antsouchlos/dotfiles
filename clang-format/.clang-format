@@ -1,0 +1,22 @@
+BasedOnStyle: LLVM
+Language: Cpp
+
+IndentWidth: 4
+UseTab: Never
+MaxEmptyLinesToKeep: 3
+
+PointerAlignment: Left
+AccessModifierOffset: -4
+AlwaysBreakTemplateDeclarations: true
+LambdaBodyIndentation: Signature
+CompactNamespaces: true
+FixNamespaceComments: true
+
+AllowShortFunctionsOnASingleLine: false
+AllowShortIfStatementsOnASingleLine: true
+AllowShortLambdasOnASingleLine: None
+
+AlignConsecutiveAssignments: true
+AlignConsecutiveBitFields: true
+AlignConsecutiveDeclarations: true
+AlignConsecutiveMacros: true
