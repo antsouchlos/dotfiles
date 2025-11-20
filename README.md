@@ -1,4 +1,11 @@
+<img width=400 src="./doc/screenshot.png" />
+<img width=400 src="./doc/screenshot-latex.png" />
+<img width=400 src="./doc/screenshot-wofi.png" />
+<img width=400 src="./doc/screenshot-dev.png" />
+
 # Dotfiles
+
+A collection of configuration files for my personal setup.
 
 ## Usage
 
