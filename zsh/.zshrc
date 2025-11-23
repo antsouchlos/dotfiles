@@ -13,6 +13,8 @@ setopt interactivecomments
 bindkey -v
 bindkey -v '^?' backward-delete-char
 
+bindkey -s '^f' "tmux-sessionizer\n"
+
 export PATH=$PATH:"$HOME/.local/bin":"$HOME/.cargo/bin"
 export EDITOR=nvim
 
@@ -35,7 +37,7 @@ setopt PROMPT_SUBST
 PROMPT='%F{magenta}[%m] %F{blue}%~%f %F{red}${vcs_info_msg_0_}%f$ '
 
 #
-# aliases
+# Aliases
 #
 
 alias ssh='kitty +kitten ssh'
