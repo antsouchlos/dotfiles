@@ -15,7 +15,7 @@ bindkey -v '^?' backward-delete-char
 
 bindkey -s '^f' "tmux-sessionizer\n"
 
-export PATH=$PATH:"$HOME/.local/bin":"$HOME/.cargo/bin"
+export PATH="$HOME/.local/bin":$PATH:"$HOME/.cargo/bin"
 export EDITOR=nvim
 
 #
