@@ -1,6 +1,6 @@
 return {
-    "https://github.com/rafamadriz/friendly-snippets",
-    dependencies = { "https://github.com/L3MON4D3/LuaSnip" },
+    "rafamadriz/friendly-snippets",
+    dependencies = { "L3MON4D3/LuaSnip" },
     event = "InsertEnter",
     config = function()
         local loader = require("luasnip.loaders.from_lua")

@@ -1,11 +1,11 @@
 return {
     {
-        "https://github.com/tpope/vim-fugitive",
+        "tpope/vim-fugitive",
         keys = { { "<leader>gs", vim.cmd.Git } }
     },
     {
-        "https://github.com/rbong/vim-flog",
-        dependencies = { "https://github.com/tpope/vim-fugitive" },
+        "rbong/vim-flog",
+        dependencies = { "tpope/vim-fugitive" },
         cmd = "Flog"
     }
 }

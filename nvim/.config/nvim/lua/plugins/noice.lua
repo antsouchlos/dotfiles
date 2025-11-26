@@ -1,6 +1,6 @@
 return {
-    "https://github.com/folke/noice.nvim",
-    dependencies = { "https://github.com/MunifTanjim/nui.nvim" },
+    "folke/noice.nvim",
+    dependencies = { "MunifTanjim/nui.nvim" },
     event = "VeryLazy",
     opts = {
         views = {

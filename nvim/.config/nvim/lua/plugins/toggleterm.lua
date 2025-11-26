@@ -1,5 +1,5 @@
 return {
-    "https://github.com/akinsho/toggleterm.nvim",
+    "akinsho/toggleterm.nvim",
     keys = { "<c-\\>" },
     opts = {
         size = 30,

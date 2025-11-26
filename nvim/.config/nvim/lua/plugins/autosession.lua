@@ -1,5 +1,5 @@
 return {
-    "https://github.com/rmagatti/auto-session",
+    "rmagatti/auto-session",
     dependencies = {
         "nvim-lua/plenary.nvim",
         "ibhagwan/fzf-lua",

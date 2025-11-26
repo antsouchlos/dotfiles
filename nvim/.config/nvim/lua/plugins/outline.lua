@@ -1,5 +1,5 @@
 return {
-    "https://github.com/hedyhli/outline.nvim",
+    "hedyhli/outline.nvim",
     keys = {
         { "<leader>l", "<cmd>Outline<CR>", desc = "Toggle Outline" }
     },
