@@ -9,5 +9,9 @@ return {
         { "<leader>fb", function() require("fzf-lua").buffers() end,   desc = "Buffers" },
         { "<leader>fh", function() require("fzf-lua").helptags() end,  desc = "Help tags" }
     },
-    config = true
+    config = function()
+        local fzf = require("fzf-lua")
+        fzf.setup()
+        fzf.register_ui_select()
+    end
 }
