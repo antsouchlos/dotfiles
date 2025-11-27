@@ -7,10 +7,18 @@ return {
         { "<leader>fa", function() require("fzf-lua").files() end,          desc = "All files" },
         { "<leader>fb", function() require("fzf-lua").buffers() end,        desc = "Buffers" },
         { "<leader>fh", function() require("fzf-lua").helptags() end,       desc = "Help tags" },
+        { "grr",        function() require("fzf-lua").lsp_references() end, desc = "LSP references" },
     },
-    config = function()
+    opts = {
+        keymap = {
+            fzf = {
+                ["ctrl-a"] = "toggle-all",
+            },
+        },
+    },
+    config = function(_, opts)
         local fzf = require("fzf-lua")
-        fzf.setup()
+        fzf.setup(opts)
         fzf.register_ui_select()
     end
 }
