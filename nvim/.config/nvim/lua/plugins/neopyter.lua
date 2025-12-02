@@ -9,10 +9,8 @@ return {
         mode = "direct",
         remote_address = "127.0.0.1:9001",
         file_pattern = { "*.ju.*" },
-        on_attach = function(bufnr)
-            -- do some buffer keymap
-        end,
     },
+    ft = { "python" },
     config = function(_, opts)
         local neopyter = require("neopyter")
         neopyter.setup({ opts })

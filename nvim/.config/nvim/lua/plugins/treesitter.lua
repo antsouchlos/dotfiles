@@ -1,9 +1,9 @@
 return {
     {
         "nvim-treesitter/nvim-treesitter",
+        version = "v0.10.0",
         dependencies = { "nvim-treesitter/nvim-treesitter-textobjects" },
         build = ":TSUpdate",
-        branch = "main",
         lazy = false, -- This plugin doesn't support lazy loading
         config = function()
             require("nvim-treesitter").setup()
