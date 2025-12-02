@@ -1,21 +1,20 @@
 return {
     {
         "nvim-treesitter/nvim-treesitter",
-        version = "v0.10.0",
-        dependencies = { "nvim-treesitter/nvim-treesitter-textobjects" },
         build = ":TSUpdate",
-        lazy = false, -- This plugin doesn't support lazy loading
+        branch = "master",
+        dependencies = { "nvim-treesitter/nvim-treesitter-textobjects" },
+        event = "VeryLazy",
         config = function()
-            require("nvim-treesitter").setup()
-
-            require("nvim-treesitter.configs").setup({
+            require 'nvim-treesitter'.setup()
+            require 'nvim-treesitter.configs'.setup {
                 textobjects = {
                     move = {
                         enable = true,
                         set_jumps = false,
                         goto_next_start = {
                             ["]c"] = { query = "@code_cell.inner", desc = "next code block" },
-                            ["]j"] = { quer = "@cellseparator", desc = "next cell" },
+                            ["]j"] = { query = "@cellseparator", desc = "next cell" },
                         },
                         goto_previous_start = {
                             ["[c"] = { query = "@code_cell.inner", desc = "previous code block" },
@@ -48,8 +47,8 @@ return {
                     additional_vim_regex_highlighting = {
                         "latex"
                     }
-                }
-            })
+                },
+            }
         end
-    }
+    },
 }

@@ -9,8 +9,8 @@ return {
         mode = "direct",
         remote_address = "127.0.0.1:9001",
         file_pattern = { "*.ju.*" },
+        queries = { "cellcontent", "cell" },
     },
-    ft = { "python" },
     config = function(_, opts)
         local neopyter = require("neopyter")
         neopyter.setup({ opts })
