@@ -6,6 +6,7 @@ HISTFILE=~/.histfile
 HISTSIZE=5000
 SAVEHIST=5000
 setopt hist_ignore_all_dups
+setopt NO_HUP
 
 unsetopt beep
 setopt extendedglob
