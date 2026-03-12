@@ -70,7 +70,7 @@ vim.api.nvim_create_autocmd("CursorHold", {
             close_events = { "BufLeave", "CursorMoved", "InsertEnter", "FocusLost" },
             source = true,
             relative = "editor",
-            width = 40,
+            width = 60,
             focusable = false,
             focused = false,
             border = "rounded",
