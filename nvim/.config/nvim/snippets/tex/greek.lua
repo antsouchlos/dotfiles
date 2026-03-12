@@ -54,371 +54,369 @@ end
 
 
 return {
-
-
-    s({ trig = "´a", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`a", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\alpha ]],
+            [[\alpha]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´b", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`b", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\beta ]],
+            [[\beta]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´g", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`g", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\gamma ]],
+            [[\gamma]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´d", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`d", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\delta ]],
+            [[\delta]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´e", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`e", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\epsilon ]],
+            [[\epsilon]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´z", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`z", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\zeta ]],
+            [[\zeta]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´h", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`h", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\eta ]],
+            [[\eta]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´q", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`q", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\theta ]],
+            [[\theta]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´i", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`i", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\iota ]],
+            [[\iota]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´k", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`k", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\kappa ]],
+            [[\kappa]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´l", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`l", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\lambda ]],
+            [[\lambda]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´m", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`m", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\mu ]],
+            [[\mu]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´n", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`n", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\nu ]],
+            [[\nu]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´x", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`x", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\xi ]],
+            [[\xi]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´p", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`p", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\pi ]],
+            [[\pi]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´r", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`r", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\rho ]],
+            [[\rho]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´s", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`s", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\sigma ]],
+            [[\sigma]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´t", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`t", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\tau ]],
+            [[\tau]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´u", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`u", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\upsilon ]],
+            [[\upsilon]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´f", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`f", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\phi ]],
+            [[\phi]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´c", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`c", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\chi ]],
+            [[\chi]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´y", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`y", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\psi ]],
+            [[\psi]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´w", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`w", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\omega ]],
+            [[\omega]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´A", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`A", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Alpha ]],
+            [[\Alpha]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´B", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`B", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Beta ]],
+            [[\Beta]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´G", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`G", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Gamma ]],
+            [[\Gamma]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´D", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`D", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Delta ]],
+            [[\Delta]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´E", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`E", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Epsilon ]],
+            [[\Epsilon]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´Z", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`Z", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Zeta ]],
+            [[\Zeta]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´H", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`H", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Eta ]],
+            [[\Eta]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´Q", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`Q", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Theta ]],
+            [[\Theta]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´I", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`I", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Iota ]],
+            [[\Iota]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´K", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`K", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Kappa ]],
+            [[\Kappa]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´L", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`L", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Lambda ]],
+            [[\Lambda]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´M", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`M", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Mu ]],
+            [[\Mu]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´N", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`N", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Nu ]],
+            [[\Nu]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´X", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`X", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Xi ]],
+            [[\Xi]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´P", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`P", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Pi ]],
+            [[\Pi]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´R", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`R", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Rho ]],
+            [[\Rho]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´S", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`S", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Sigma ]],
+            [[\Sigma]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´T", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`T", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Tau ]],
+            [[\Tau]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´U", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`U", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Upsilon ]],
+            [[\Upsilon]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´F", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`F", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Phi ]],
+            [[\Phi]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´C", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`C", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Chi ]],
+            [[\Chi]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´Y", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`Y", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Psi ]],
+            [[\Psi]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
     ),
 
-    s({ trig = "´W", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`W", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\Omega ]],
+            [[\Omega]],
             {}
         ),
         { condition = tex_utils.in_mathzone }
@@ -427,9 +425,9 @@ return {
 
     -- Strictly speaking not greek characters, but very similar snippets
 
-    s({ trig = "´6", wordTrig = false, snippetType = "autosnippet" },
+    s({ trig = "`6", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\partial ]],
+            [[\partial]],
             {}
         ),
         { condition = tex_utils.in_mathzone }

@@ -20,6 +20,7 @@ return {
         vim.g.vimtex_view_method = 'zathura_simple'
         vim.g.vimtex_quickfix_mode = 0
         vim.g.latex_flavor = 'latex'
+        vim.g.vimtex_imaps_enabled = 0
 
         -- Concealment
 

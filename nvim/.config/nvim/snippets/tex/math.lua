@@ -297,7 +297,7 @@ return {
 
     s({ trig = "((", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            [[\mleft( <> \mright)]],
+            [[\left( <> \right)]],
             {
                 i(1),
             }
@@ -307,7 +307,7 @@ return {
 
     s({ trig = "[[", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            "\\mleft[ <> \\mright]",
+            "\\left[ <> \\right]",
             {
                 i(1),
             }
@@ -317,7 +317,7 @@ return {
 
     s({ trig = "{{", wordTrig = false, snippetType = "autosnippet" },
         fmta(
-            "\\mleft\\{ <> \\mright\\}",
+            "\\left\\{ <> \\right\\}",
             {
                 i(1),
             }
