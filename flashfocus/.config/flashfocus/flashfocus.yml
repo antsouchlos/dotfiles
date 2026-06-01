@@ -12,8 +12,8 @@ flash-lone-windows: 'always'
 # Windows that should remain these remain semi-transparent after flash
 rules:
   - app-id: kitty
-    flash-opacity: 0.85
-    default-opacity: 0.94
+    flash-opacity: 0.82
+    default-opacity: 0.9
   - app-id: org.pwmt.zathura
-    flash-opacity: 0.85
-    default-opacity: 0.94
+    flash-opacity: 0.82
+    default-opacity: 0.9
