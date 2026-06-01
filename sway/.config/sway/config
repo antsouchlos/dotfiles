@@ -49,7 +49,7 @@ bindsym XF86MonBrightnessDown exec /bin/sh -c ~/.config/sway/scripts/decrease_br
 # Outputs
 #
 
-output * bg ~/.config/sway/wallpapers/mountains.jpg fill
+output * bg ~/.config/sway/wallpapers/vogesen_high_res_low_noise_darker.png fill
 output eDP-1 scale 1.4
 
 #
