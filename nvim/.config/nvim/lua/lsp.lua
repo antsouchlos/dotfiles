@@ -31,6 +31,17 @@ vim.lsp.config("texlab", {
 
 })
 
+vim.lsp.config("tinymist", {
+    settings = {
+        formatterMode = "typstyle",
+        formatterPrintWidth = 80,
+        formatterIndentSize = 4,
+        formatterProseWrap = true,
+    },
+})
+
+-- vim.lsp.enable("tinymist")
+
 vim.lsp.config('clangd', {
     cmd = {
         "clangd",
@@ -47,6 +58,8 @@ vim.lsp.config('clangd', {
         -- "--pch-storage=memory"
     }
 })
+
+
 
 
 --
