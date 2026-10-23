@@ -65,8 +65,8 @@ bar {
 
 exec_always --no-startup-id bash -c "killall flashfocus; flashfocus --flash-opacity 0.92 -l never"
 
-for_window [app_id="org.pwmt.zathura"] opacity 0.94
-for_window [app_id="kitty"] opacity 0.94
+for_window [app_id="org.pwmt.zathura"] opacity 0.9
+for_window [app_id="kitty"] opacity 0.9
 for_window [title="blueman-manager"] floating enable
 
 for_window [class="^.*"] border pixel 0
