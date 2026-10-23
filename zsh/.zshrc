@@ -54,11 +54,15 @@ alias ...="cd ../.."
 # Interfacing with other programs
 #
 
-source /usr/share/fzf/key-bindings.zsh
-source /usr/share/fzf/completion.zsh
+if [[ $HOST == "rpi" ]]; then
+    [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+    source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+elif [[ $HOST == "andreas-laptop" ]]; then
+    source /usr/share/fzf/key-bindings.zsh
+    source /usr/share/fzf/completion.zsh
+    . "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
+fi
 
-. "/usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh"
 bindkey '^l' autosuggest-accept
 
 eval "$(zoxide init zsh)"
-eval "$(thefuck --alias)"
