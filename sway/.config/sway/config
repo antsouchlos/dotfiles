@@ -2,11 +2,9 @@
 # General options
 #
 
-set $PATH $HOME/.local/bin:$PATH
-
 set $mod Mod4
 set $term kitty
-set $menu dmenu_path | wofi --show=run --matching | xargs swaymsg exec --
+set $menu PATH="$HOME/.local/bin:$PATH" wofi --show=run --matching | xargs swaymsg exec --:
 set $lock swaylock --screenshot --effect-blur 10x10 --effect-vignette 0.5:1 --ring-color 3c3836 --key-hl-color d65e0e -f
 
 bindswitch --reload --locked lid:on exec $lock
