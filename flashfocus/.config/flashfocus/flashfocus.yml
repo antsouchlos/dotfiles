@@ -17,3 +17,6 @@ rules:
   - app-id: org.pwmt.zathura
     flash-opacity: 0.82
     default-opacity: 0.9
+  - app-id: brittle-v2
+    flash-opacity: 0.82
+    default-opacity: 0.9
