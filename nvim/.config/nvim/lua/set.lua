@@ -19,6 +19,9 @@ vim.opt.exrc = true
 vim.opt.cmdheight = 0
 vim.o.updatetime = 50
 
+-- Turning this on leads to flickering with some kitty version
+vim.opt.termsync = false
+
 vim.api.nvim_create_autocmd('FileType', {
     pattern = 'cpp',
     callback = function() vim.bo.commentstring = '// %s' end
