@@ -2,6 +2,8 @@
 # General options
 #
 
+set $PATH $HOME/.local/bin:$PATH
+
 set $mod Mod4
 set $term kitty
 set $menu dmenu_path | wofi --show=run --matching | xargs swaymsg exec --
