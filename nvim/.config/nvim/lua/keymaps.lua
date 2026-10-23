@@ -16,7 +16,6 @@ vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
 
 vim.keymap.set("n", "Q", "<nop>")
-vim.keymap.set("n", "q:", "<nop>")
 vim.cmd [[call nvim_create_user_command('W', 'w', {'nargs': 0})]]
 
 vim.keymap.set("n", "QQ", ":q!<CR>")
