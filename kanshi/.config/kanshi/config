@@ -1,9 +1,19 @@
+profile Standard {
+    output "eDP-1" mode 2256x1504@59.999Hz position 0,0 transform normal scale 1.399999976158142
+}
+
 profile Home {
-    output "eDP-1" mode  2256x1504@59.999Hz position 1920,875 transform normal scale 1.399999976158142
-    output "DP-11" mode  1920x1200@59.95Hz position 0,0 transform normal scale 1.0
+    output "eDP-1" mode 2256x1504@59.999Hz position 1920,875 transform normal scale 1.399999976158142
+    output "DP-11" mode 1920x1200@59.950Hz position 0,0 transform normal scale 1.0
 }
 
 profile Bell {
-    output "eDP-1" mode  2256x1504@59.999Hz position 2137,425 transform normal scale 1.399999976158142
-    output "DP-3" mode  1920x1080@59.951Hz position 0,0 transform normal scale 0.9
+    output "eDP-1" mode 2256x1504@59.999Hz position 2137,425 transform normal scale 1.399999976158142
+    output "DP-3" mode 1920x1080@59.951Hz position 0,0 transform normal scale 0.9
+}
+
+profile INUE {
+    output "eDP-1" mode 2256x1504@59.999Hz position 202,755 transform normal scale 1.6
+    output "DP-11" mode 3840x2160@59.997Hz position 1612,640 transform normal scale 1.6
+    output "DP-9" mode 1920x1080@60.000Hz position 4009,330 transform 270 scale 1.06
 }
