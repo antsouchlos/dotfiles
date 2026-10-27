@@ -10,3 +10,5 @@ A collection of configuration files for my personal setup.
 ```bash
 $ stow -S clang-format flashfocus kitty nvim sway tmux waybar wofi zathura zsh
 ```
+
+> The `bin` directory is not meant to be stowed

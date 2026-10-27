@@ -16,8 +16,9 @@ bindkey -v '^?' backward-delete-char
 
 bindkey -s '^f' "tmux-sessionizer\n"
 
-export PATH="$HOME/.local/bin":$PATH:"$HOME/.cargo/bin"
+export PATH="$HOME/.dotfiles/bin:$HOME/.local/bin":$PATH:"$HOME/.cargo/bin"
 export EDITOR=nvim
+export SHELL=/bin/zsh
 
 #
 # compinstall
