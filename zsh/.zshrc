@@ -32,16 +32,7 @@ compinit
 # Prompt
 #
 
-autoload -Uz vcs_info
-precmd() { vcs_info }
-zstyle ':vcs_info:git:*' formats '%b '
-setopt PROMPT_SUBST
-
-if [[ $USER == "root" ]]; then
-    PROMPT='%F{magenta}[%m] %F{blue}%~%f %F{red}${vcs_info_msg_0_}%f# '
-else
-    PROMPT='%F{magenta}[%m] %F{blue}%~%f %F{red}${vcs_info_msg_0_}%f$ '
-fi
+source "${${(%):-%x}:A:h}/.config/zsh/prompt.zsh"
 
 #
 # Aliases
