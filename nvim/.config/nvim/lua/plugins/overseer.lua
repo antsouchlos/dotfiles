@@ -54,18 +54,6 @@ return {
         },
     },
     opts = {
-        templates = {
-            -- "builtin",
-            "user.cargo_build",
-            "user.cargo_clean",
-            "user.cargo_run",
-            "user.cargo_test",
-            "user.cmake_generate",
-            "user.cmake_build",
-            "user.cmake_clean",
-            "user.cmake_test",
-            "user.python_run"
-        },
         task_win = {
             win_opts = { "border", "rounded" }
         }
