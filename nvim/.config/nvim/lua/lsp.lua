@@ -111,10 +111,6 @@ vim.api.nvim_set_keymap("i", "<C-Space>", "<C-x><C-o>", { noremap = true })
 vim.api.nvim_create_autocmd('LspAttach', {
     group = vim.api.nvim_create_augroup('my.lsp', {}),
     callback = function(args)
-        vim.keymap.set('n', '<M-L>', function() vim.lsp.buf.format() end,
-            { desc = "Format", noremap = true, silent = true })
-        vim.keymap.set('i', '<M-L>', function() vim.lsp.buf.format() end,
-            { desc = "Format", noremap = true, silent = true })
         vim.keymap.set("n", "gd", function() vim.lsp.buf.definition() end,
             { desc = "Go to definition" })
     end,
